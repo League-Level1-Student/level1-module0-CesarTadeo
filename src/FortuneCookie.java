@@ -15,7 +15,7 @@ public class FortuneCookie implements ActionListener {
             JButton button = new JButton();
             frame.add(button);
             frame.setPreferredSize(new Dimension(500,500));
-            button.setPreferredSize(new Dimension(400,400));
+            button.setPreferredSize(new Dimension(300,300));
             button.setText("Click here for a fortune.");
             frame.pack();
             button.addActionListener(this);     
